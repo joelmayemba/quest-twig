@@ -1,0 +1,24 @@
+{# navbar.html.twig #}
+<!-- Contenu de la barre de navigation -->
+
+{# layout.html.twig #}
+<!doctype html>
+<html lang="fr">
+	<head>
+		<!-- ... autres balises meta ... -->
+
+		<title>
+			{% block title %}Mon Site -
+			{% endblock %}
+		</title>
+
+		<link rel="stylesheet" href="/assets/css/style.css">
+		<link rel="icon" href="/assets/images/favicon.png">
+	</head>
+
+	<body>
+		{% include 'navbar.html.twig' %}
+
+		{% block content %}{% endblock %}
+	</body>
+</html>

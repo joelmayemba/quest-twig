@@ -1,14 +1,15 @@
 {
-    "name": "wcs/quest-twig",
-    "description": "A quest to let you discover the power of the mighty twig template engine !",
-    "type": "quest",
-    "require": {
-        "twig/twig": "^3.3"
+    "name": "quest-twig/app",
+    "autoload": {
+        "psr-4": {
+            "QuestTwig\\App\\": "src/"
+        }
     },
     "authors": [
         {
-            "name": "Aurélien",
-            "email": "aurelien.barbier@wildcodeschool.com"
+            "name": "Joël MAYEMBA",
+            "email": "joelmayemba@gmail.com"
         }
-    ]
+    ],
+    "require": {}
 }
