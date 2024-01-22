@@ -9,3 +9,5 @@ $twig->addExtension(new Twig\Extension\DebugExtension());
 //On ajoute la globale author à l'initialisation de l'objet Twig
 $author = 'Joël Wilder';
 $twig->addGlobal('author', $author);
+$contactEmail = 'joelmayemba@gmail.com';
+$twig->addGlobal('contactEmail', $contactEmail);
